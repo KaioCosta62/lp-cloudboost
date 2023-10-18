@@ -1,0 +1,80 @@
+.btn-primary{
+  background-color: $purple-10;
+  padding: 1.4rem 2.3rem;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 150%;
+  transition: all .3s ease;
+  &.lg{
+    padding: 1.9rem 6.6rem;
+  }
+  &:hover{
+    background-color: $purple-20;
+  }
+}
+
+.form-email{
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  max-width: 52.1rem;
+  padding: 0.4rem 0.4rem 0.4rem 2.4rem;
+  border-radius: 100px;
+  .input-email{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: $gray-100;
+    line-height: 150%;
+    font-size: 1.6rem;
+    &::placeholder{
+      color: $gray-300;
+      font-family: 'Inter', sans-serif;
+    }
+  }
+}
+
+.reviews{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  .reviews-star{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    span{
+      color: $gray-600;
+      font-size: 1.8rem;
+      strong{
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.card-resources{
+  width: 100%;
+  max-width: 22.5rem;
+  .icon{
+    width: 4.8rem;
+    height: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.6rem;
+  }
+  h6{
+    font-weight: 700;
+    line-height: 120%;
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+  p{
+    color: $gray-600;
+    font-size: 1.6rem;
+    line-height: 150%;
+  }
+}
