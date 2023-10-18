@@ -16,8 +16,7 @@
 }
 
 .form-email{
-  display: flex;
-  align-items: center;
+  @include flexCenter;
   gap: 1.8rem;
   max-width: 52.1rem;
   padding: 0.4rem 0.4rem 0.4rem 2.4rem;
@@ -38,12 +37,10 @@
 }
 
 .reviews{
-  display: flex;
-  align-items: center;
+  @include flexCenter;
   gap: 8px;
   .reviews-star{
-    display: flex;
-    align-items: center;
+    @include flexCenter;
     gap: 4px;
     span{
       color: $gray-600;
@@ -61,9 +58,7 @@
   .icon{
     width: 4.8rem;
     height: 4.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexTotalCenter;
     margin-bottom: 1.6rem;
   }
   h6{
