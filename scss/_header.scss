@@ -3,6 +3,7 @@
   position: sticky;
   top: 1.6rem;
   width: 100%;
+  z-index: 1;
   .content-header{
     @include flexCenterJustify;
     border-radius: 100px;

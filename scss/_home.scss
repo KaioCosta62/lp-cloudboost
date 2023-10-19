@@ -1,0 +1,59 @@
+.hero{
+  padding-top: 8rem;
+  .content-hero{
+    @include flexCenterJustify;
+    .left{
+      width: 100%;
+      max-width: 60rem;
+      h1{
+        font-size: 5.6rem;
+        letter-spacing: -1.68px;
+        margin-bottom: 1.6rem;
+        span{
+          color: $purple-10;
+          display: inline-block;
+          text-decoration: underline;
+          font-family: 'Space Grotesk', sans-serif;
+        }
+      }
+      p{
+        color: $gray-200;
+        font-size: 2.2rem;
+        line-height: 150%;
+        max-width: 49.1rem;
+        margin-bottom: 3.2rem;
+      }
+      .form-email{
+        margin-bottom: 4.8rem;
+      }
+      .companies{
+        width: 100%;
+        max-width: 33.9rem;
+        margin-bottom: 4.8rem;
+        @include flexCenterJustify;
+      }
+    }
+  }
+}
+.resources{
+  padding-top: 11.2rem;
+  .resources-title{
+    @include flexCenterJustify;
+    margin-bottom: 8rem;
+    h3{
+      letter-spacing: -1.2px;
+      max-width: 66.1rem;
+    }
+    p{
+      color: $gray-200;
+      font-size: 1.6rem;
+      line-height: 150%;
+    }
+  }
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10.3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);    ;
+  }
+}
