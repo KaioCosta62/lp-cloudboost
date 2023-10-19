@@ -29,5 +29,22 @@
         }
       }
     }
+    .btn-mobile{
+      display: none;
+    }
+  }
+  @include responsive('mobile'){
+    .content-header{
+      padding: 1.9rem 2.5rem;
+      .logo{
+        max-width: 10.9rem;
+      }
+      .btns-header{
+        display: none;
+      }
+      .btn-mobile{
+        display: block;
+      }
+    }
   }
 }
