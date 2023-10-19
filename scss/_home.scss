@@ -57,3 +57,32 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);    ;
   }
 }
+.email-marketing{
+  padding: 9.5rem 0;
+  .box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/bg-box.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 8.1rem 0;
+    border-radius: 10px;
+    h1{
+      margin-bottom: 0.8rem;
+      letter-spacing: -1.68px;
+      max-width: 78.6rem;
+    }
+    p{
+      color: $gray-200;
+      font-size: 2rem;
+      max-width: 50.1rem;
+      font-weight: 400;
+      margin-bottom: 3.2rem;
+      line-height: 150%;
+    }
+  }
+}
