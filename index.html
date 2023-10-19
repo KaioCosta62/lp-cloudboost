@@ -10,13 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     <title>CloudBoost</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="content-header">
+        <div class="content-header" data-aos="fade-up">
           <a href="#" class="logo">
             <img src="./img/logo.svg" alt="Logo CloudBoost" />
           </a>
@@ -36,7 +37,7 @@
     <section class="hero">
       <div class="container">
         <div class="content-hero">
-          <div class="left">
+          <div class="left" data-aos="fade-right">
             <h1>Ferramenta de e-mail marketing perfeita para  <span>sua empresa!</span> </h1>
             <p>
               Aproveite o potencial do e-mail marketing para ganhar vendas e
@@ -71,13 +72,13 @@
               </div>
             </div>
           </div>
-          <img src="./img/main-image.png" alt="" class="main">
+          <img src="./img/main-image.png" alt="" class="main" data-aos="fade-up">
           <img src="./img/main-image-mobile.png" alt="" class="main-mobile">
         </div>
       </div>
     </section>
 
-    <section class="resources">
+    <section class="resources" data-aos="fade-up">
       <div class="container">
         <div class="resources-title">
           <h3>Conheça os recursos da ferramenta de e-mail marketing CloudBoost</h3>
@@ -128,7 +129,7 @@
       </div>
     </section>
 
-    <section class="email-marketing">
+    <section class="email-marketing" data-aos="zoom-in">
       <div class="container">
         <div class="box">
           <h1>Alavanque com a Ferramenta de E-mail Marketing Perfeita!</h1>
@@ -137,5 +138,13 @@
         </div>
       </div>
     </section> 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000
+      });
+    </script>
   </body>
 </html>
