@@ -75,3 +75,28 @@
     line-height: 150%;
   }
 }
+
+@include responsive('tablet'){
+  .companies{
+    margin: 0 auto;
+    margin-bottom: 4.8rem;
+  }
+  .reviews{
+    justify-content: center;
+  }
+}
+
+@include responsive('mobile'){
+  .form-email{
+    max-width: 33.6rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    input{
+      max-width: 12.8rem;
+    }
+    .btn-primary{
+      padding: 1.2rem 2rem;
+      font-size: 1.6rem;
+    }
+  }
+}
